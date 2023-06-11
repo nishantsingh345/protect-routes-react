@@ -7,6 +7,8 @@ import Home from "./component/Home";
 import Profile from "./component/Profile";
 import About from "./component/About";
 import Protected from "./component/Protected";
+import User from "./component/User";
+// import Errorbound from "./component/Errorbound";
 
 function App() {
   const [isLoggedIn, setisLoggedIn] = useState(null);
@@ -55,6 +57,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </div>
+      <User />
     </>
   );
 }

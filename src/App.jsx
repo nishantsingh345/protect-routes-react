@@ -8,6 +8,7 @@ import Profile from "./component/Profile";
 import About from "./component/About";
 import Protected from "./component/Protected";
 import User from "./component/User";
+import BasicTable from "./component/BasicTable";
 // import Errorbound from "./component/Errorbound";
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
         </BrowserRouter>
       </div>
       <User />
+      <BasicTable />
     </>
   );
 }

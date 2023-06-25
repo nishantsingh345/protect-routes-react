@@ -35,16 +35,3 @@ const BasicTable = () => {
 
 export default BasicTable;
 
-{rows.map((row)=>(
-               
-                
-                 
-                    <tr {...row.getRowProps()}>
-                          {
-                            row.cells.map(cell =>{
-                                return <td {...cell.getCellProps()}>{cell.render('cell')}</td>
-                            })
-                          }
-                    </tr>
-      
-             ))}
